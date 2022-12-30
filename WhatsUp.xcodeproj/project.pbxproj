@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36437F74295B204500488D90 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F73295B204500488D90 /* WhatsUpApp.swift */; };
+		36437F76295B204500488D90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F75295B204500488D90 /* ContentView.swift */; };
+		36437F78295B204700488D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36437F77295B204700488D90 /* Assets.xcassets */; };
+		36437F7C295B204700488D90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36437F7B295B204700488D90 /* Preview Assets.xcassets */; };
+		36437F86295B204700488D90 /* WhatsUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F85295B204700488D90 /* WhatsUpTests.swift */; };
+		36437F90295B204700488D90 /* WhatsUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F8F295B204700488D90 /* WhatsUpUITests.swift */; };
+		36437F92295B204700488D90 /* WhatsUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F91295B204700488D90 /* WhatsUpUITestsLaunchTests.swift */; };
+		36437FA0295B206000488D90 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437F9F295B206000488D90 /* Home.swift */; };
+		36437FA2295B206900488D90 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36437FA1295B206900488D90 /* Settings.swift */; };
+		36B1245A295C1627005B667C /* Calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12459295C1627005B667C /* Calls.swift */; };
+		36B1245C295C2436005B667C /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1245B295C2436005B667C /* Chats.swift */; };
+		36B1245E295C2BB9005B667C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1245D295C2BB9005B667C /* Status.swift */; };
+		36B12466295C3B47005B667C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12465295C3B47005B667C /* Account.swift */; };
+		36B12468295C3F50005B667C /* ChatsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12467295C3F50005B667C /* ChatsSettings.swift */; };
+		36B1246A295C4244005B667C /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12469295C4244005B667C /* Privacy.swift */; };
+		36B1246C295C47B9005B667C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1246B295C47B9005B667C /* Notifications.swift */; };
+		36B1246E295C49A8005B667C /* StorageAndData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1246D295C49A8005B667C /* StorageAndData.swift */; };
+		36B12470295C4D49005B667C /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1246F295C4D49005B667C /* EditProfile.swift */; };
+		36B12473295C5184005B667C /* StatusPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12472295C5184005B667C /* StatusPrivacy.swift */; };
+		36B12476295C685E005B667C /* Communities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12475295C685E005B667C /* Communities.swift */; };
+		36B1247D295C736D005B667C /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1247C295C736D005B667C /* Help.swift */; };
+		36B12480295D63C8005B667C /* PhotoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1247F295D63C8005B667C /* PhotoLibraryView.swift */; };
+		36B12482295D65BA005B667C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12481295D65BA005B667C /* CameraView.swift */; };
+		36B12485295D6DCF005B667C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12484295D6DCF005B667C /* LoginView.swift */; };
+		36B12487295D6E02005B667C /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12486295D6E02005B667C /* CountryPickerView.swift */; };
+		36B1248A295D6E58005B667C /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12489295D6E58005B667C /* Countries.swift */; };
+		36B1248D295D6FD6005B667C /* TermsAndServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1248C295D6FD6005B667C /* TermsAndServiceView.swift */; };
+		36B1248F295DC6DD005B667C /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1248E295DC6DD005B667C /* Auth.swift */; };
+		36B12491295EB412005B667C /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12490295EB412005B667C /* OTPView.swift */; };
+		36B12493295EBCE1005B667C /* VerifyOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12492295EBCE1005B667C /* VerifyOTPView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36437F82295B204700488D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36437F68295B204500488D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36437F6F295B204500488D90;
+			remoteInfo = WhatsUp;
+		};
+		36437F8C295B204700488D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36437F68295B204500488D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36437F6F295B204500488D90;
+			remoteInfo = WhatsUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36437F70295B204500488D90 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36437F73295B204500488D90 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
+		36437F75295B204500488D90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36437F77295B204700488D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36437F79295B204700488D90 /* WhatsUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatsUp.entitlements; sourceTree = "<group>"; };
+		36437F7B295B204700488D90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36437F81295B204700488D90 /* WhatsUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36437F85295B204700488D90 /* WhatsUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpTests.swift; sourceTree = "<group>"; };
+		36437F8B295B204700488D90 /* WhatsUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36437F8F295B204700488D90 /* WhatsUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpUITests.swift; sourceTree = "<group>"; };
+		36437F91295B204700488D90 /* WhatsUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36437F9F295B206000488D90 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		36437FA1295B206900488D90 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		36B12459295C1627005B667C /* Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calls.swift; sourceTree = "<group>"; };
+		36B1245B295C2436005B667C /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		36B1245D295C2BB9005B667C /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		36B12465295C3B47005B667C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		36B12467295C3F50005B667C /* ChatsSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsSettings.swift; sourceTree = "<group>"; };
+		36B12469295C4244005B667C /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		36B1246B295C47B9005B667C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		36B1246D295C49A8005B667C /* StorageAndData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAndData.swift; sourceTree = "<group>"; };
+		36B1246F295C4D49005B667C /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		36B12472295C5184005B667C /* StatusPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPrivacy.swift; sourceTree = "<group>"; };
+		36B12475295C685E005B667C /* Communities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communities.swift; sourceTree = "<group>"; };
+		36B1247C295C736D005B667C /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		36B1247F295D63C8005B667C /* PhotoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryView.swift; sourceTree = "<group>"; };
+		36B12481295D65BA005B667C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		36B12484295D6DCF005B667C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		36B12486295D6E02005B667C /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		36B12489295D6E58005B667C /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		36B1248C295D6FD6005B667C /* TermsAndServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServiceView.swift; sourceTree = "<group>"; };
+		36B1248E295DC6DD005B667C /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		36B12490295EB412005B667C /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		36B12492295EBCE1005B667C /* VerifyOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36437F6D295B204500488D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F7E295B204700488D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F88295B204700488D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36437F67295B204500488D90 = {
+			isa = PBXGroup;
+			children = (
+				36437F72295B204500488D90 /* WhatsUp */,
+				36437F84295B204700488D90 /* WhatsUpTests */,
+				36437F8E295B204700488D90 /* WhatsUpUITests */,
+				36437F71295B204500488D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36437F71295B204500488D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36437F70295B204500488D90 /* WhatsUp.app */,
+				36437F81295B204700488D90 /* WhatsUpTests.xctest */,
+				36437F8B295B204700488D90 /* WhatsUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36437F72295B204500488D90 /* WhatsUp */ = {
+			isa = PBXGroup;
+			children = (
+				36B12488295D6E47005B667C /* Model */,
+				36437F9E295B205500488D90 /* Views */,
+				36437F73295B204500488D90 /* WhatsUpApp.swift */,
+				36437F75295B204500488D90 /* ContentView.swift */,
+				36437F77295B204700488D90 /* Assets.xcassets */,
+				36437F79295B204700488D90 /* WhatsUp.entitlements */,
+				36437F7A295B204700488D90 /* Preview Content */,
+			);
+			path = WhatsUp;
+			sourceTree = "<group>";
+		};
+		36437F7A295B204700488D90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36437F7B295B204700488D90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36437F84295B204700488D90 /* WhatsUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				36437F85295B204700488D90 /* WhatsUpTests.swift */,
+			);
+			path = WhatsUpTests;
+			sourceTree = "<group>";
+		};
+		36437F8E295B204700488D90 /* WhatsUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36437F8F295B204700488D90 /* WhatsUpUITests.swift */,
+				36437F91295B204700488D90 /* WhatsUpUITestsLaunchTests.swift */,
+			);
+			path = WhatsUpUITests;
+			sourceTree = "<group>";
+		};
+		36437F9E295B205500488D90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36B1248B295D6FA6005B667C /* Terms&Service */,
+				36B12483295D6DC0005B667C /* Login */,
+				36B1245F295C3AD7005B667C /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36B1245F295C3AD7005B667C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36B12474295C6850005B667C /* Communities */,
+				36B12463295C3B1E005B667C /* Chats */,
+				36B12462295C3B17005B667C /* Status */,
+				36B12461295C3B0F005B667C /* Calls */,
+				36B12460295C3B04005B667C /* Settings */,
+				36437F9F295B206000488D90 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36B12460295C3B04005B667C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				36B1247B295C7354005B667C /* Notification */,
+				36B1247A295C733F005B667C /* Storage */,
+				36B12479295C7338005B667C /* Privacy */,
+				36B12478295C732F005B667C /* Chats */,
+				36B12477295C7312005B667C /* Help */,
+				36B12464295C3B38005B667C /* Account */,
+				36437FA1295B206900488D90 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		36B12461295C3B0F005B667C /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				36B12459295C1627005B667C /* Calls.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		36B12462295C3B17005B667C /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				36B12471295C516B005B667C /* Privacy */,
+				36B1245D295C2BB9005B667C /* Status.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		36B12463295C3B1E005B667C /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				36B1247E295D63BE005B667C /* Camera */,
+				36B1245B295C2436005B667C /* Chats.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		36B12464295C3B38005B667C /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				36B12465295C3B47005B667C /* Account.swift */,
+				36B1246F295C4D49005B667C /* EditProfile.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		36B12471295C516B005B667C /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				36B12472295C5184005B667C /* StatusPrivacy.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		36B12474295C6850005B667C /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+				36B12475295C685E005B667C /* Communities.swift */,
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		36B12477295C7312005B667C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				36B1247C295C736D005B667C /* Help.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		36B12478295C732F005B667C /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				36B12467295C3F50005B667C /* ChatsSettings.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		36B12479295C7338005B667C /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				36B12469295C4244005B667C /* Privacy.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		36B1247A295C733F005B667C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				36B1246D295C49A8005B667C /* StorageAndData.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		36B1247B295C7354005B667C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				36B1246B295C47B9005B667C /* Notifications.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		36B1247E295D63BE005B667C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				36B1247F295D63C8005B667C /* PhotoLibraryView.swift */,
+				36B12481295D65BA005B667C /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		36B12483295D6DC0005B667C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36B12484295D6DCF005B667C /* LoginView.swift */,
+				36B12486295D6E02005B667C /* CountryPickerView.swift */,
+				36B12490295EB412005B667C /* OTPView.swift */,
+				36B12492295EBCE1005B667C /* VerifyOTPView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		36B12488295D6E47005B667C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36B12489295D6E58005B667C /* Countries.swift */,
+				36B1248E295DC6DD005B667C /* Auth.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36B1248B295D6FA6005B667C /* Terms&Service */ = {
+			isa = PBXGroup;
+			children = (
+				36B1248C295D6FD6005B667C /* TermsAndServiceView.swift */,
+			);
+			path = "Terms&Service";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36437F6F295B204500488D90 /* WhatsUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36437F95295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUp" */;
+			buildPhases = (
+				36437F6C295B204500488D90 /* Sources */,
+				36437F6D295B204500488D90 /* Frameworks */,
+				36437F6E295B204500488D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsUp;
+			productName = WhatsUp;
+			productReference = 36437F70295B204500488D90 /* WhatsUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36437F80295B204700488D90 /* WhatsUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36437F98295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUpTests" */;
+			buildPhases = (
+				36437F7D295B204700488D90 /* Sources */,
+				36437F7E295B204700488D90 /* Frameworks */,
+				36437F7F295B204700488D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36437F83295B204700488D90 /* PBXTargetDependency */,
+			);
+			name = WhatsUpTests;
+			productName = WhatsUpTests;
+			productReference = 36437F81295B204700488D90 /* WhatsUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36437F8A295B204700488D90 /* WhatsUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36437F9B295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUpUITests" */;
+			buildPhases = (
+				36437F87295B204700488D90 /* Sources */,
+				36437F88295B204700488D90 /* Frameworks */,
+				36437F89295B204700488D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36437F8D295B204700488D90 /* PBXTargetDependency */,
+			);
+			name = WhatsUpUITests;
+			productName = WhatsUpUITests;
+			productReference = 36437F8B295B204700488D90 /* WhatsUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36437F68295B204500488D90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					36437F6F295B204500488D90 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					36437F80295B204700488D90 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 36437F6F295B204500488D90;
+					};
+					36437F8A295B204700488D90 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 36437F6F295B204500488D90;
+					};
+				};
+			};
+			buildConfigurationList = 36437F6B295B204500488D90 /* Build configuration list for PBXProject "WhatsUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36437F67295B204500488D90;
+			productRefGroup = 36437F71295B204500488D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36437F6F295B204500488D90 /* WhatsUp */,
+				36437F80295B204700488D90 /* WhatsUpTests */,
+				36437F8A295B204700488D90 /* WhatsUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36437F6E295B204500488D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36437F7C295B204700488D90 /* Preview Assets.xcassets in Resources */,
+				36437F78295B204700488D90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F7F295B204700488D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F89295B204700488D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36437F6C295B204500488D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B12493295EBCE1005B667C /* VerifyOTPView.swift in Sources */,
+				36B12473295C5184005B667C /* StatusPrivacy.swift in Sources */,
+				36B1245A295C1627005B667C /* Calls.swift in Sources */,
+				36B12480295D63C8005B667C /* PhotoLibraryView.swift in Sources */,
+				36B12482295D65BA005B667C /* CameraView.swift in Sources */,
+				36B12468295C3F50005B667C /* ChatsSettings.swift in Sources */,
+				36B1246C295C47B9005B667C /* Notifications.swift in Sources */,
+				36437F76295B204500488D90 /* ContentView.swift in Sources */,
+				36B1245E295C2BB9005B667C /* Status.swift in Sources */,
+				36B1246E295C49A8005B667C /* StorageAndData.swift in Sources */,
+				36437FA0295B206000488D90 /* Home.swift in Sources */,
+				36437FA2295B206900488D90 /* Settings.swift in Sources */,
+				36B1246A295C4244005B667C /* Privacy.swift in Sources */,
+				36B1248D295D6FD6005B667C /* TermsAndServiceView.swift in Sources */,
+				36B1248F295DC6DD005B667C /* Auth.swift in Sources */,
+				36B12491295EB412005B667C /* OTPView.swift in Sources */,
+				36B12466295C3B47005B667C /* Account.swift in Sources */,
+				36B12470295C4D49005B667C /* EditProfile.swift in Sources */,
+				36437F74295B204500488D90 /* WhatsUpApp.swift in Sources */,
+				36B12487295D6E02005B667C /* CountryPickerView.swift in Sources */,
+				36B12476295C685E005B667C /* Communities.swift in Sources */,
+				36B12485295D6DCF005B667C /* LoginView.swift in Sources */,
+				36B1247D295C736D005B667C /* Help.swift in Sources */,
+				36B1248A295D6E58005B667C /* Countries.swift in Sources */,
+				36B1245C295C2436005B667C /* Chats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F7D295B204700488D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36437F86295B204700488D90 /* WhatsUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36437F87295B204700488D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36437F90295B204700488D90 /* WhatsUpUITests.swift in Sources */,
+				36437F92295B204700488D90 /* WhatsUpUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36437F83295B204700488D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36437F6F295B204500488D90 /* WhatsUp */;
+			targetProxy = 36437F82295B204700488D90 /* PBXContainerItemProxy */;
+		};
+		36437F8D295B204700488D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36437F6F295B204500488D90 /* WhatsUp */;
+			targetProxy = 36437F8C295B204700488D90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36437F93295B204700488D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36437F94295B204700488D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		36437F96295B204700488D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhatsUp/WhatsUp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsUp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8LLC7KA9G4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maritzcx.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SampleProvisioningProfile;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36437F97295B204700488D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhatsUp/WhatsUp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsUp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.WhatsUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36437F99295B204700488D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.WhatsUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsUp";
+			};
+			name = Debug;
+		};
+		36437F9A295B204700488D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.WhatsUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsUp";
+			};
+			name = Release;
+		};
+		36437F9C295B204700488D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.WhatsUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsUp;
+			};
+			name = Debug;
+		};
+		36437F9D295B204700488D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.WhatsUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36437F6B295B204500488D90 /* Build configuration list for PBXProject "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36437F93295B204700488D90 /* Debug */,
+				36437F94295B204700488D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36437F95295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36437F96295B204700488D90 /* Debug */,
+				36437F97295B204700488D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36437F98295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36437F99295B204700488D90 /* Debug */,
+				36437F9A295B204700488D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36437F9B295B204700488D90 /* Build configuration list for PBXNativeTarget "WhatsUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36437F9C295B204700488D90 /* Debug */,
+				36437F9D295B204700488D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36437F68295B204500488D90 /* Project object */;
+}
