@@ -27,7 +27,6 @@ struct CountryPickerView: View {
                             countryName: country.name,
                             countryCode: country.phoneExtension)
                     })
-                    
                 }
             }
             .searchable(text: $searchCountryText)

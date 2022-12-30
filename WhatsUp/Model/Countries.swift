@@ -282,9 +282,9 @@ class Countries {
         return countries
     }()
 }
+
 public class Country: Identifiable,ObservableObject {
-    
-    
+
     public var id = UUID()
     public var countryCode: String
     public var phoneExtension: String
@@ -311,6 +311,5 @@ public class Country: Identifiable,ObservableObject {
         }
         return String(s)
     }
-    
 }
 

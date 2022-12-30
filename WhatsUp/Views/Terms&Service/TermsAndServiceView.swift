@@ -46,7 +46,7 @@ struct TermsAndServiceView: View {
                         .fontWeight(.bold)
                 }
                 .navigationDestination(isPresented: $isLoginView) {
-                    LoginView()
+                    PhoneNumberView()
                 }
             }
         }

@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct EditProfile: View {
+    @AppStorage("isLoggedIn") var isLoggedIn: Bool = false
+    @State private var profileName:String = ""
+    @State private var status:String = ""
+    @State var txPhoneNumber:String = ""
+   
     var body: some View {
         List{
             VStack(alignment:.leading) {
@@ -26,17 +31,25 @@ struct EditProfile: View {
                 .padding([.leading])
             }
            
-            Text("Profile Name")
+            TextField("Profile Name", text: $profileName)
             Section("PHONE NUMBER") {
-                Text("+91 524792146")
+                Text(txPhoneNumber)
             }
             Section("ABOUT") {
-                Text("Random Quote")
+                TextField("", text: $status)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle("Edit Profile")
         .listStyle(.grouped)
+        .navigationBarItems(trailing:
+                                
+        Button("Done", action: {
+            isLoggedIn = true
+        })
+                            
+        )
+        
     }
 }
 

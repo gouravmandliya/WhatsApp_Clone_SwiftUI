@@ -11,6 +11,7 @@ struct PhoneNumberView: View {
     @State var presentCountryChoice = false
     @State var txPhoneNumber = ""
     @State var isShowVerifyOTPView: Bool = false
+    @FocusState private var keyboardFocused: Bool
     @State var country:Country = Country(countryCode: "US", phoneExtension: "1")
     var body: some View {
         VStack(alignment: .leading) {
@@ -52,6 +53,7 @@ struct PhoneNumberView: View {
                     TextField(
                         "Phone Number",
                         text: $txPhoneNumber)
+                    .focused($keyboardFocused)
                     .padding(.horizontal, 16).keyboardType(.phonePad)
                     .font(Font.system(size: 27, weight: .light, design: .default))
                     
@@ -66,6 +68,11 @@ struct PhoneNumberView: View {
         .sheet(isPresented: $presentCountryChoice) {
             CountryPickerView(selectedCountry: $country)
         }
+        .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    keyboardFocused = true
+                }
+            }
         .navigationTitle("Phone Number")
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarItems(trailing:

@@ -15,14 +15,12 @@ struct OTPView: View {
     }
     @FocusState private var focusedField: FocusField?
     @Binding var otpCode: String
-    var otpCodeLength: Int
     var textColor: Color
     var textSize: CGFloat
-    
+    @FocusState private var keyboardFocused: Bool
     //MARK: Constructor
-    public init(otpCode: Binding<String>, otpCodeLength: Int, textColor: Color, textSize: CGFloat) {
+    public init(otpCode: Binding<String>, textColor: Color, textSize: CGFloat) {
         self._otpCode = otpCode
-        self.otpCodeLength = otpCodeLength
         self.textColor = textColor
         self.textSize = textSize
     }
@@ -38,8 +36,9 @@ struct OTPView: View {
                     .foregroundColor(.clear)
                     .multilineTextAlignment(.center)
                     .keyboardType(.numberPad)
-                    .onReceive(Just(otpCode)) { _ in limitText(otpCodeLength) }
+                    .onReceive(Just(otpCode)) { _ in limitText(6) }
                     .focused($focusedField, equals: .field)
+                    .focused($keyboardFocused)
                     .task {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5)
                         {
@@ -61,10 +60,18 @@ struct OTPView: View {
                                 .padding(.leading, 5)
                                 .opacity(self.otpCode.count <= index ? 1 : 0)
                         }
+                        if index == 2 {
+                            Spacer(minLength: 20)
+                        }
                     }
                 }
             }
         }
+        .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    keyboardFocused = true
+                }
+            }
     }
     
     //MARK: func
@@ -84,7 +91,7 @@ struct OTPView: View {
 
 struct OTPView_Previews: PreviewProvider {
     static var previews: some View {
-        OTPView(otpCode:.constant("45122"), otpCodeLength: 6, textColor: .black, textSize: 27)
+        OTPView(otpCode:.constant("45122"),textColor: .black, textSize: 27)
     }
 }
 extension String {

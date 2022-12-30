@@ -30,7 +30,7 @@
 		36B1247D295C736D005B667C /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1247C295C736D005B667C /* Help.swift */; };
 		36B12480295D63C8005B667C /* PhotoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1247F295D63C8005B667C /* PhotoLibraryView.swift */; };
 		36B12482295D65BA005B667C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12481295D65BA005B667C /* CameraView.swift */; };
-		36B12485295D6DCF005B667C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12484295D6DCF005B667C /* LoginView.swift */; };
+		36B12485295D6DCF005B667C /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12484295D6DCF005B667C /* PhoneNumberView.swift */; };
 		36B12487295D6E02005B667C /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12486295D6E02005B667C /* CountryPickerView.swift */; };
 		36B1248A295D6E58005B667C /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B12489295D6E58005B667C /* Countries.swift */; };
 		36B1248D295D6FD6005B667C /* TermsAndServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1248C295D6FD6005B667C /* TermsAndServiceView.swift */; };
@@ -84,7 +84,7 @@
 		36B1247C295C736D005B667C /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
 		36B1247F295D63C8005B667C /* PhotoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryView.swift; sourceTree = "<group>"; };
 		36B12481295D65BA005B667C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		36B12484295D6DCF005B667C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		36B12484295D6DCF005B667C /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		36B12486295D6E02005B667C /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
 		36B12489295D6E58005B667C /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		36B1248C295D6FD6005B667C /* TermsAndServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServiceView.swift; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 		36B12483295D6DC0005B667C /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				36B12484295D6DCF005B667C /* LoginView.swift */,
+				36B12484295D6DCF005B667C /* PhoneNumberView.swift */,
 				36B12486295D6E02005B667C /* CountryPickerView.swift */,
 				36B12490295EB412005B667C /* OTPView.swift */,
 				36B12492295EBCE1005B667C /* VerifyOTPView.swift */,
@@ -493,7 +493,7 @@
 				36437F74295B204500488D90 /* WhatsUpApp.swift in Sources */,
 				36B12487295D6E02005B667C /* CountryPickerView.swift in Sources */,
 				36B12476295C685E005B667C /* Communities.swift in Sources */,
-				36B12485295D6DCF005B667C /* LoginView.swift in Sources */,
+				36B12485295D6DCF005B667C /* PhoneNumberView.swift in Sources */,
 				36B1247D295C736D005B667C /* Help.swift in Sources */,
 				36B1248A295D6E58005B667C /* Countries.swift in Sources */,
 				36B1245C295C2436005B667C /* Chats.swift in Sources */,
